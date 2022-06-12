@@ -1,0 +1,37 @@
+.section{
+    grid-area: 'section';
+    grid-column: 1 / -1;
+    grid-row: 5 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+
+    .section_img{
+        width: 30%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .section_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        
+        .section_title{
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1em;
+        }
+
+        .section_text{
+            font-size: 1.2rem;
+            text-align: left;
+        }
+    }
+
+}

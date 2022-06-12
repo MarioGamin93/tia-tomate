@@ -1,0 +1,15 @@
+.header{
+    grid-area: 'header';
+    grid-column: 1 / -1;
+    grid-row: 1 / 1;
+    display: flex;
+    align-items: center;
+    height: 120px;
+
+    .header_img{
+        width: 20%;
+        position: relative;
+        left: 5rem;
+    }
+
+}

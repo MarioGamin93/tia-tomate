@@ -1,0 +1,12 @@
+.container--grid{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'hero hero hero'
+    'main main main'
+    'footer-main footer-main footer-main'
+    'section section section'
+    'nav-button nav-button nav-button'
+    'footer footer footer'
+    ;
+}

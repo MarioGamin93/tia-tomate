@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 'hero';
+    grid-column: 1 / -1;
+    grid-row: 2 / 2;
+    height: 90vh;
+
+    .hero_text{
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .hero_title{
+        font-size: 5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+}

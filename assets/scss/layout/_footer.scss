@@ -1,0 +1,13 @@
+.footer{
+    grid-area: 'footer';
+    grid-column: 1 / -1;
+    grid-row: 7 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+    .footer_img{
+        width: 10%;
+    }
+}
